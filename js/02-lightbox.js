@@ -36,3 +36,9 @@ const lightbox = new SimpleLightbox('.gallery a', {
   captionDelay: 250,
 });
 
+// window.addEventListener('load', () => {
+//   lightbox.open();
+// });
+
+// Там место lightbox.load(); надо было lightbox.open(); но в таком варианте при загрузке страницы галерея сразу автоматом будет открыватся))
+// Поэтому просто так оставляю)

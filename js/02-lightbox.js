@@ -36,6 +36,3 @@ const lightbox = new SimpleLightbox('.gallery a', {
   captionDelay: 250,
 });
 
-window.addEventListener('load', () => {
-  lightbox.load();
-});
